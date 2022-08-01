@@ -177,11 +177,11 @@ export default class MoviesDAO {
           },
         ],
         movies: [
-          {
-            $addFields: {
-              title: "$title",
-            },
-          },
+          // {
+          //   $addFields: {
+          //     title: "$title",
+          //   },
+          // },
         ],
       },
     }
